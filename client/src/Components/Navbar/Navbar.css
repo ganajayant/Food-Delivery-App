@@ -1,0 +1,35 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+    color: black;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+    background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.badge:after {
+    content: attr(value);
+    font-size: 12px;
+    color: #fff;
+    background: black;
+    border-radius: 50%;
+    padding: 0 5px;
+    position: relative;
+    left: -8px;
+    top: -10px;
+    opacity: 0.9;
+}
